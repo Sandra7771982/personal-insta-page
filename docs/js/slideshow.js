@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         $(slides[slideIndex-1]).fadeIn();
 
-        setTimeout(showPhotos, 2000);
+        setTimeout(showPhotos, 3000);
 
     }
 

@@ -6,7 +6,6 @@ body {
 	background: #D300EA;
 	background: linear-gradient(135deg, rgb(255,0,4) 0%,rgb(224,71,0) 15%,rgb(244,236,0) 31%,rgb(0,188,12) 47%,rgb(0,181,168) 64%,rgb(0,21,214) 82%,rgb(211,0,234) 100%);
 	background-repeat: no-repeat;
-	overflow: hidden;
 
 /*	background: #B0D09C;
 	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
