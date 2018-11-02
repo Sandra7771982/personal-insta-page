@@ -1,18 +1,12 @@
-html,
-body {
-	height: 100%;
-}
 
 body {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 400;
 	color: #000000;
-	background-color: #424242;
-
-	background: #F8D353;
-	background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: linear-gradient(top left, #F8D353, #FF5C5A);
+	background: #D300EA;
+	background: linear-gradient(135deg, rgb(255,0,4) 0%,rgb(224,71,0) 15%,rgb(244,236,0) 31%,rgb(0,188,12) 47%,rgb(0,181,168) 64%,rgb(0,21,214) 82%,rgb(211,0,234) 100%);
+	background-repeat: no-repeat;
+	overflow: hidden;
 
 /*	background: #B0D09C;
 	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
@@ -29,6 +23,7 @@ body {
 	background: -moz-linear-gradient(top left, #DFA2B9, #EBC48D);
 	background: linear-gradient(top left, #DFA2B9, #EBC48D);*/
 }
+
 
 img {
 	max-width: 100%;
@@ -49,8 +44,10 @@ img {
 	font-weight: 400;
 	margin: 0;
 	line-height: 1.5;
-	font-family: 'Oranienbaum', cursive;
+	font-family: 'Spicy Rice', cursive;
 	color: #fff;
+	text-shadow: 4px 0 2px rgba(0, 0, 0, 0.6);
+	letter-spacing: 6px;
 }
 
 .title {
@@ -59,6 +56,12 @@ img {
 	margin: 0;
 	line-height: 1.5;
 	color: #fff;
+	text-shadow: 4px 0 2px rgba(0, 0, 0, 0.6);
+}
+
+.photo img {
+	display: none;
+	box-shadow: 10px -10px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .hidden {
@@ -71,7 +74,7 @@ img {
 
 .copyright p {
 	font-size: 18px;
-	color: #FFF;
+	color: #fff;
 }
 
 .copyright a {
