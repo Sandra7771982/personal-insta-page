@@ -65,10 +65,10 @@ img {
 	text-shadow: 4px 0 2px rgba(0, 0, 0, 0.6);
 }
 
-.photo img {
-	display: none;
-	box-shadow: 10px -10px 10px 0 rgba(0, 0, 0, 0.4);
-}
+/*.photo img {*/
+	/*display: none;*/
+	/*box-shadow: 10px -10px 10px 0 rgba(0, 0, 0, 0.4);*/
+/*}*/
 
 .hidden {
 	display: none;

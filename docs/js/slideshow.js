@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     function showPhotos() {
         let i;
-        let slides = $('.photo img');
+        let slides = $('#instafeed img');
         for (i = 0; i < slides.length; i++) {
             $(slides[i]).hide();
         }
@@ -16,9 +16,9 @@ $(document).ready(function(){
             slideIndex = 1;
         }
 
-        $(slides[slideIndex-1]).fadeIn();
+        $(slides[slideIndex - 1]).fadeIn(1000);
 
-        setTimeout(showPhotos, 3000);
+        setTimeout(showPhotos, 5000);
 
     }
 
