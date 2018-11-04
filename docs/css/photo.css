@@ -12,10 +12,11 @@
 	overflow: hidden;
 	transition: opacity 1s ease-in, box-shadow 3s ease-in;
 	opacity: 0;
+	z-index: 10;
 }
 
 /*.instafeed a {*/
-	/*display: none;*/
+/*display: none;*/
 /*}*/
 
 .shadowed {
